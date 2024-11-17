@@ -8,7 +8,7 @@ const SocketContext = createContext();
 
 const ContextProvider = ({children})=>{
 
-const socket = io('https://webrtc-gules.vercel.app/');
+const socket = io('https://webrtc-gules.vercel.app');
 
 const [stream, setStream] = useState(null);
 const [userId, setUserId] = useState('')
