@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { AppBar, Typography } from '@material-ui/core'
-import VideoPlayer from './components/videoPlayer'
+import VideoPlayer from './components/VideoPlayer'
 import Options from './components/Options'
 import Notifications from './components/Notifications'
 
