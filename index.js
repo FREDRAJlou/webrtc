@@ -13,7 +13,6 @@ const io =  new Server(server,{
   }
 })
 
-app.cors();
 
 const PORT = process.env.PORT || 5000;
 
